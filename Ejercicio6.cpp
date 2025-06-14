@@ -12,7 +12,6 @@ int main (){
 	int usuario=0, computadora=0, ganador=0, eleccion;
 	srand(time(0));
 	while (ganador!=3){
-		do{
 			cout<<"Escoja: Piedra, Papel o Tijeras"<<endl;
 			cout<<"1. Piedra"<< endl;
 			cout<<"2. Papel"<< endl;
@@ -82,7 +81,6 @@ int main (){
 					break;
 				}
 			}
-	 while (ganador!=3);}
  	if (usuario == 3) {
         cout << "El ganador es: Usuario" << endl;
     } else if (computadora == 3) {
